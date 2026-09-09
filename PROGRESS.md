@@ -21,8 +21,8 @@ GitHub Pages–hostable static website (in `/docs`, no build step, plain HTML/CS
 - `.nojekyll` in docs so underscores/files aren't mangled.
 
 ## Plan (checkbox = done)
-- [ ] 1. Skeleton + push
-- [ ] 2. Research: modpack landscape (launchers, loaders, categories) → research/landscape.md
+- [x] 1. Skeleton + push
+- [~] 2. Research: modpack landscape (landscape.md written; continuing per-pack) (launchers, loaders, categories) → research/landscape.md
 - [ ] 3. Research: individual packs (facts, versions, mod counts, sources) → research/packs/*.md
 - [ ] 4. Write packs.json (structured data)
 - [ ] 5. Build site shell: index (hero, methodology, tier list, filterable table), CSS, JS
