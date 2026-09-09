@@ -56,4 +56,5 @@ Kitchen-sink/tech: All the Mods 9 / ATM9: To the Sky / ATM10, FTB Skies, FTB Sto
 ✓ all-the-mods-10
 ✓ Batch A complete (bmc4, gtnh, sb4, astral, prominence-2, homestead, cobbleverse, rlcraft, fabulously-optimized)
 ✓ Batch B complete (24 packs total)
-Batch C: vault-hunters-3, craft-to-exile-2, dawncraft, integrated-mc, roguelike-adventures-and-dungeons-2, deceasedcraft, cursed-walking, rebirth-of-the-night, nightfallcraft(?), ftb-oceanblock-2, ftb-skies, skyfactory-4, skyfactory-5, all-the-mods-9, atmons, bigchadguys-plus, pixelmon, sunlit-valley, statech-industry, direwolf20-1-21, mc-eternal-2, better-mc-fabric
+✓ Batch C complete — 41 reviews total. Reviews phase DONE.
+- Step 6 (reviews) DONE: 41 packs. Next: Step 7 guides (how-to-choose, methodology, glossary, faq, history + launchers-install, performance-tuning, servers). Then polish: fix duplicate title on index ("Modpack Atlas · Modpack Atlas"), README, verify links.
