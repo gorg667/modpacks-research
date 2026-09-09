@@ -78,5 +78,46 @@
    "structure": "loose",
    "solo_ok": true
   }
+ },
+ {
+  "slug": "ftb-stoneblock-4",
+  "name": "FTB StoneBlock 4",
+  "category": "Skyblock & Questing",
+  "loader": "NeoForge",
+  "mc_version": "1.21.1",
+  "difficulty": "Moderate",
+  "ram": "6–8 GB",
+  "playtime": "80–120 h (all chapters incl. creative chapter)",
+  "tier": "S",
+  "score": 7.8,
+  "verdict": "The best FTB pack in years: custom World Engine, handcrafted Vaults and villager-powered Unearthers make a 100-hour questing pack that most players can actually finish.",
+  "tags": [
+   "questing",
+   "skyblock-style",
+   "tech",
+   "magic",
+   "custom-mechanics",
+   "ftb",
+   "multiplayer",
+   "modern"
+  ],
+  "ratings": {
+   "content": 8,
+   "polish": 8,
+   "progression": 8,
+   "performance": 7,
+   "beginner": 7,
+   "multiplayer": 9,
+   "longevity": 7
+  },
+  "quiz": {
+   "vibes": [
+    "build",
+    "everything",
+    "explore"
+   ],
+   "structure": "guided",
+   "solo_ok": true
+  }
  }
 ]
