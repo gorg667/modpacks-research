@@ -40,6 +40,46 @@
   }
  },
  {
+  "slug": "create-astral",
+  "name": "Create: Astral",
+  "category": "Tech",
+  "loader": "Fabric",
+  "mc_version": "1.18.2",
+  "difficulty": "Moderate",
+  "ram": "4–6 GB",
+  "playtime": "80–150 h",
+  "tier": "S",
+  "score": 8.4,
+  "verdict": "The best way to learn Create in 2026 — a beautifully written, well-paced Fabric pack whose only real flaw is being locked to 1.18.2.",
+  "tags": [
+   "create",
+   "tech",
+   "quests",
+   "space",
+   "fabric",
+   "automation",
+   "beginner-friendly-tech",
+   "ad-astra"
+  ],
+  "ratings": {
+   "content": 8,
+   "polish": 9,
+   "progression": 10,
+   "performance": 8,
+   "beginner": 8,
+   "multiplayer": 8,
+   "longevity": 7
+  },
+  "quiz": {
+   "vibes": [
+    "build",
+    "explore"
+   ],
+   "structure": "guided",
+   "solo_ok": true
+  }
+ },
+ {
   "slug": "all-the-mods-10",
   "name": "All the Mods 10",
   "category": "Kitchen Sink",
