@@ -1,5 +1,45 @@
 [
  {
+  "slug": "gregtech-new-horizons",
+  "name": "GregTech: New Horizons",
+  "category": "Expert",
+  "loader": "Forge (with lwjgl3ify for Java 17–21+)",
+  "mc_version": "1.7.10",
+  "difficulty": "Brutal",
+  "ram": "6–8 GB (Java 17+); 4–6 GB on Java 8",
+  "playtime": "1,600 h (team) – 2,500 h (solo) to endgame; 4,000–8,000 h to the Stargate",
+  "tier": "S",
+  "score": 8.9,
+  "verdict": "The most ambitious, deepest and best-maintained modpack ever made — and a lifestyle commitment that most people should not start.",
+  "tags": [
+   "expert",
+   "gregtech",
+   "tech",
+   "magic",
+   "hardcore",
+   "long-term",
+   "classic-era",
+   "multiplayer",
+   "quests"
+  ],
+  "ratings": {
+   "content": 10,
+   "polish": 10,
+   "progression": 10,
+   "performance": 7,
+   "beginner": 1,
+   "multiplayer": 10,
+   "longevity": 10
+  },
+  "quiz": {
+   "vibes": [
+    "build"
+   ],
+   "structure": "guided",
+   "solo_ok": true
+  }
+ },
+ {
   "slug": "all-the-mods-10",
   "name": "All the Mods 10",
   "category": "Kitchen Sink",
