@@ -238,6 +238,46 @@
   }
  },
  {
+  "slug": "liminal-industries",
+  "name": "Liminal Industries",
+  "category": "Tech",
+  "loader": "Forge",
+  "mc_version": "1.20.1",
+  "difficulty": "Hard",
+  "ram": "6 GB",
+  "playtime": "80–150 h (5 chapters)",
+  "tier": "S",
+  "score": 7.5,
+  "verdict": "The most original tech pack of the decade: a Backrooms survival premise executed with real design discipline. Heavily Create-dependent — if that's fine, it's essential.",
+  "tags": [
+   "create",
+   "tech",
+   "backrooms",
+   "atmosphere",
+   "quests",
+   "chapters",
+   "custom-mechanics",
+   "modern"
+  ],
+  "ratings": {
+   "content": 8,
+   "polish": 8,
+   "progression": 9,
+   "performance": 7,
+   "beginner": 4,
+   "multiplayer": 7,
+   "longevity": 7
+  },
+  "quiz": {
+   "vibes": [
+    "build",
+    "survive"
+   ],
+   "structure": "guided",
+   "solo_ok": true
+  }
+ },
+ {
   "slug": "homestead",
   "name": "Homestead",
   "category": "Cozy & Vanilla+",
