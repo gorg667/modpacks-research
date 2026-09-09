@@ -54,6 +54,6 @@ Kitchen-sink/tech: All the Mods 9 / ATM9: To the Sky / ATM10, FTB Skies, FTB Sto
 
 ## Review writing queue (✓ = committed)
 ✓ all-the-mods-10
-Batch A (must for quick picks): better-minecraft-bmc4, gregtech-new-horizons, ftb-stoneblock-4, create-astral, prominence-2, homestead, cobbleverse, rlcraft, fabulously-optimized
+✓ Batch A complete (bmc4, gtnh, sb4, astral, prominence-2, homestead, cobbleverse, rlcraft, fabulously-optimized)
 Batch B: create-above-and-beyond, create-arcane-engineering, all-of-create, liminal-industries, meatballcraft, monifactory, nomifactory, terrafirmagreg, enigmatica-10, enigmatica-9-expert, enigmatica-2-expert, divine-journey-2, sevtech-ages, project-ozone-3
 Batch C: vault-hunters-3, craft-to-exile-2, dawncraft, integrated-mc, roguelike-adventures-and-dungeons-2, deceasedcraft, cursed-walking, rebirth-of-the-night, nightfallcraft(?), ftb-oceanblock-2, ftb-skies, skyfactory-4, skyfactory-5, all-the-mods-9, atmons, bigchadguys-plus, pixelmon, sunlit-valley, statech-industry, direwolf20-1-21, mc-eternal-2, better-mc-fabric
