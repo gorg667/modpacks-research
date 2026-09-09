@@ -22,8 +22,8 @@ GitHub Pages–hostable static website (in `/docs`, no build step, plain HTML/CS
 
 ## Plan (checkbox = done)
 - [x] 1. Skeleton + push
-- [~] 2. Research: modpack landscape (landscape.md written; continuing per-pack) (launchers, loaders, categories) → research/landscape.md
-- [ ] 3. Research: individual packs (facts, versions, mod counts, sources) → research/packs/*.md
+- [x] 2. Research: modpack landscape (landscape.md)
+- [x] 3. Research: individual packs (research/packs/*.md — enough to write; can top-up later)
 - [ ] 4. Write packs.json (structured data)
 - [ ] 5. Build site shell: index (hero, methodology, tier list, filterable table), CSS, JS
 - [ ] 6. Write per-pack review pages (detailed: overview, progression, highlights, cons, perf, who it's for, how to install)
@@ -38,3 +38,6 @@ Kitchen-sink/tech: All the Mods 9 / ATM9: To the Sky / ATM10, FTB Skies, FTB Sto
 ## Current state
 (update below after each step)
 - Step 1: skeleton created.
+- Steps 2-3 done (research/*.md). Next: packs.json + site shell. 
+- DESIGN DECISION for site: dark "obsidian" theme, accent colors per category; pages: index.html (hero, quick picks, tier list, filter table), packs/<slug>.html (full reviews), guides/*.html, compare.html, quiz.html, glossary.html, faq.html, about/methodology.html.
+- Rating rubric (each 1-10): Content depth, Polish/stability, Progression design, Performance (higher = lighter), Beginner-friendliness, Multiplayer suitability, Longevity. Plus overall score + tier (S/A/B/C) + "Verdict" one-liner.

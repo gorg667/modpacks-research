@@ -31,3 +31,18 @@ Easiest→hardest: FTB Academy, FTB University, MC Eternal, Cuboid Outpost, PO3 
 
 ## Performance packs
 - Fabulously Optimized (Fabric, 48 mods, Sodium/Lithium/Iris, OptiFine-feature parity: connected textures, shaders, capes, zoom; CF+Modrinth; also Quilt formerly). Simply Optimized: minimal, adds C2ME, Fastload, MoreCulling, ImmediatelyFast → theoretically faster, no visual extras. Additive (by Adrenaline dev, Fabric, vanilla-feel + QoL). Adrenaline (NeoForge/Forge counterpart of Additive-ish; performance). 
+
+## Liminal Industries (by Appocryptha)
+Source: CF (886K+ dl), r/ftb Jul 2025 (1442 upvotes, 229 comments), r/ftb 2026 thread
+- Forge 1.20.1, 146 mods. Spawn in Backrooms; recycle chairs for wood, cut carpet for string; custom recipes; 5 chapters custom tech tree; book/library dimension (Infinite Library = nether), 110 room types; no random mob spawns (only sculk spawners in rare structures) → eerie not horror; Chairold mimic (harmless); chalk for mapping (walls/carpet regenerate); cardboard armor box form; wall piercer; Create central + Immersive Engineering, Botania (light), AE2 (controllers ch4), Tinkers, Eidolon (soul enchanter), Farmer's Delight; item pipes disabled until ME → conveyors; bamboo→wood automation; Reality Anchor chunkloading; Reality Frames.
+- Praise: "besides GTNH my favorite", "one of most well designed packs in long time", stellar resource-gen theme, quest book good, stable, dev responsive.
+- Criticism: heavily Create-dependent (if you hate Create, pass), cramped rooms for automation (pick big rooms/crude oil room), tedious early game (hand-crank power, food, wood), some bugs (deployer carpet), Botania introduced abruptly.
+
+## SkyFactory 5 (darkosto, Firstnecron, Jaredlll08)
+- CF, last update Mar 11 2025. 293 mods. Java 17 → 1.20.1 Forge. 6GB min. Theme: color/paint — resources crafted from dye (dripstone color, creeper explosions), gateways to battle titans → trophies to spawn mobs on demand; customizable spawners; Create debut in SF; Mystical Agriculture, Draconic Evolution, RFTools Dimensions; task book (hats, eating dirt...). Reception: mixed/quiet compared to SF4 (need to verify), development seems stalled since Mar 2025.
+
+## TerraFirmaGreg-Modern
+- Forge 1.20.1; GitHub TerraFirmaGreg-Team/Modpack-Modern; CF "terrafirmagreg-modern". TFC + GregTech CEu Modern. Not "beatable" yet — roadmap grows; current goals: Ultimate Battery + "Not A Noob Certificate"; future: space mod, mine a neutron star for creative items; no Stargate. Player: 150h → early MV (new to both); 300h → LuV if focused; AE2 ≈ halfway. r/TerraFirmaGreg 5K subs. Also legacy 1.12.2 TFG (older).
+
+## DawnCraft - Echoes of Legends
+- Forge 1.18.2 (v2.x), ~300 mods, Java 17/18; LITE version for Mac/low end. 2023 launch praised for ambition; criticized: too many small useless mods hurting perf/memory; jank. Wiki relevant 2.0.5+.
