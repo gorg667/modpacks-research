@@ -167,26 +167,26 @@
   "loader": "Forge",
   "mc_version": "1.20.1",
   "difficulty": "Beginner",
-  "ram": "4–6 GB",
-  "playtime": "40–150 h (open-ended)",
+  "ram": "5–6 GB (8 GB with shaders)",
+  "playtime": "Open-ended; 100+ quests, ~40 h to see most of it",
   "tier": "A",
-  "score": 6.8,
-  "verdict": "The definitive Vanilla+ gateway: 300+ mods that make the base game bigger without making it a different game. Not deep, not meant to be.",
+  "score": 6.7,
+  "verdict": "The best first modpack: 300+ mods of Vanilla+ world, structures, mobs and QoL that still feels like Minecraft, runs on 6 GB, and never asks you to read a wiki.",
   "tags": [
    "vanilla-plus",
    "exploration",
    "beginner",
    "structures",
-   "quests",
    "shaders",
    "multiplayer",
-   "aether"
+   "quests",
+   "modern"
   ],
   "ratings": {
    "content": 7,
    "polish": 7,
    "progression": 4,
-   "performance": 8,
+   "performance": 7,
    "beginner": 10,
    "multiplayer": 9,
    "longevity": 6
