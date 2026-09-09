@@ -119,6 +119,45 @@
   }
  },
  {
+  "slug": "nomifactory",
+  "name": "Nomifactory (and Nomi-CEu)",
+  "category": "Expert",
+  "loader": "Forge",
+  "mc_version": "1.12.2",
+  "difficulty": "Hard",
+  "ram": "3–4 GB (!)",
+  "playtime": "300–600 h",
+  "tier": "S",
+  "score": 8.3,
+  "verdict": "The definitive GregTech on-ramp: peaceful-mode-friendly, encyclopedic quest book, no steam age, resource gen early — 300–600 hours of pure factory building. Play Nomi-CEu for the modern fork.",
+  "tags": [
+   "expert",
+   "gregtech",
+   "factory",
+   "tech",
+   "quests",
+   "classic-era",
+   "low-spec",
+   "peaceful"
+  ],
+  "ratings": {
+   "content": 8,
+   "polish": 9,
+   "progression": 9,
+   "performance": 10,
+   "beginner": 4,
+   "multiplayer": 8,
+   "longevity": 8
+  },
+  "quiz": {
+   "vibes": [
+    "build"
+   ],
+   "structure": "guided",
+   "solo_ok": true
+  }
+ },
+ {
   "slug": "meatballcraft",
   "name": "MeatballCraft: Dimensional Ascension",
   "category": "Expert",
@@ -273,6 +312,45 @@
     "build",
     "everything",
     "explore"
+   ],
+   "structure": "guided",
+   "solo_ok": true
+  }
+ },
+ {
+  "slug": "monifactory",
+  "name": "Monifactory",
+  "category": "Expert",
+  "loader": "Forge",
+  "mc_version": "1.20.1",
+  "difficulty": "Hard",
+  "ram": "6–8 GB",
+  "playtime": "300–600 h",
+  "tier": "A",
+  "score": 7.6,
+  "verdict": "The modern GregTech factory pack: Nomi's grind-free philosophy on 1.20.1 with a reworked UV+ endgame and a real Expert mode. The best current answer to ‘I want GregTech on a modern version.’",
+  "tags": [
+   "expert",
+   "gregtech",
+   "factory",
+   "tech",
+   "quests",
+   "modern",
+   "peaceful",
+   "hard-mode"
+  ],
+  "ratings": {
+   "content": 8,
+   "polish": 7,
+   "progression": 9,
+   "performance": 7,
+   "beginner": 4,
+   "multiplayer": 8,
+   "longevity": 8
+  },
+  "quiz": {
+   "vibes": [
+    "build"
    ],
    "structure": "guided",
    "solo_ok": true
