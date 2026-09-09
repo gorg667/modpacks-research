@@ -80,6 +80,45 @@
   }
  },
  {
+  "slug": "cobbleverse",
+  "name": "COBBLEVERSE",
+  "category": "Pokémon",
+  "loader": "Fabric (NeoForge build also available)",
+  "mc_version": "1.21.1",
+  "difficulty": "Easy",
+  "ram": "6–8 GB",
+  "playtime": "80–200 h (all gyms, Dex completion much longer)",
+  "tier": "S",
+  "score": 8.3,
+  "verdict": "The definitive Pokémon-in-Minecraft experience in 2026: all 1,025 species, Mega Evolutions, themed regions and gym progression, with the Minecraft survival layer stripped away.",
+  "tags": [
+   "pokemon",
+   "cobblemon",
+   "rpg",
+   "gyms",
+   "exploration",
+   "multiplayer",
+   "modern",
+   "fabric"
+  ],
+  "ratings": {
+   "content": 9,
+   "polish": 8,
+   "progression": 8,
+   "performance": 7,
+   "beginner": 9,
+   "multiplayer": 9,
+   "longevity": 8
+  },
+  "quiz": {
+   "vibes": [
+    "pokemon"
+   ],
+   "structure": "guided",
+   "solo_ok": true
+  }
+ },
+ {
   "slug": "all-the-mods-10",
   "name": "All the Mods 10",
   "category": "Kitchen Sink",
