@@ -1,0 +1,31 @@
+<article class="pack">
+  <header class="pack-hero {{hero_class}}">
+    <div class="pack-hero-inner">
+      <p class="eyebrow"><a href="index.html">All packs</a> · {{category}}</p>
+      <h1>{{name}}</h1>
+      <p class="tagline">{{tagline}}</p>
+      <div class="verdict-box">{{tier}}<span class="big-score">{{score}}<small>/10</small></span><p>{{verdict}}</p></div>
+      <div class="tags">{{tags}}</div>
+    </div>
+  </header>
+  <div class="pack-layout">
+    <aside class="pack-side">
+      <section class="panel"><h2>At a glance</h2><dl class="facts">{{facts}}</dl></section>
+      <section class="panel"><h2>Scores</h2>{{scores}}<p class="muted small">How we score → <a href="../guides/methodology.html">methodology</a></p></section>
+      <section class="panel"><h2>Get it</h2><div class="btn-col">{{links}}</div></section>
+      <section class="panel"><h2>Related packs</h2><div class="related-list">{{related}}</div></section>
+    </aside>
+    <div class="pack-main prose">
+      <div class="proscons">
+        <div class="pros"><h3>What's great</h3><ul>{{pros}}</ul></div>
+        <div class="cons"><h3>What holds it back</h3><ul>{{cons}}</ul></div>
+      </div>
+      <div class="fit">
+        <div><h3>Play this if…</h3><ul>{{best_for}}</ul></div>
+        <div><h3>Skip it if…</h3><ul>{{avoid_if}}</ul></div>
+      </div>
+      {{body}}
+      <p class="muted small">Review last revised {{updated}}. Spotted an error or a major update? <a href="https://github.com/gorg667/modpacks-research/issues" target="_blank" rel="noopener">Open an issue</a>.</p>
+    </div>
+  </div>
+</article>
