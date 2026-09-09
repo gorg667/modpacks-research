@@ -239,6 +239,46 @@
   }
  },
  {
+  "slug": "skyfactory-4",
+  "name": "SkyFactory 4",
+  "category": "Skyblock & Questing",
+  "loader": "Forge",
+  "mc_version": "1.12.2",
+  "difficulty": "Easy",
+  "ram": "4–6 GB",
+  "playtime": "60–150 h",
+  "tier": "A",
+  "score": 8.1,
+  "verdict": "The definitive modern-era skyblock and still the best relaxed one: sapling-based resources, dozens of world types, optional prestige — a 1.12.2 classic that has aged gracefully.",
+  "tags": [
+   "skyblock",
+   "tech",
+   "resources",
+   "classic-era",
+   "beginner",
+   "prestige",
+   "multiplayer"
+  ],
+  "ratings": {
+   "content": 8,
+   "polish": 9,
+   "progression": 7,
+   "performance": 8,
+   "beginner": 9,
+   "multiplayer": 9,
+   "longevity": 8
+  },
+  "quiz": {
+   "vibes": [
+    "build",
+    "everything",
+    "cozy"
+   ],
+   "structure": "guided",
+   "solo_ok": true
+  }
+ },
+ {
   "slug": "vault-hunters-3",
   "name": "Vault Hunters 3rd Edition",
   "category": "RPG & Adventure",
@@ -344,6 +384,45 @@
    "beginner": 7,
    "multiplayer": 9,
    "longevity": 9
+  },
+  "quiz": {
+   "vibes": [
+    "build",
+    "explore",
+    "everything"
+   ],
+   "structure": "loose",
+   "solo_ok": true
+  }
+ },
+ {
+  "slug": "all-the-mods-9",
+  "name": "All the Mods 9",
+  "category": "Kitchen Sink",
+  "loader": "Forge",
+  "mc_version": "1.20.1",
+  "difficulty": "Easy",
+  "ram": "8–10 GB",
+  "playtime": "150–350 h (ATM Star)",
+  "tier": "A",
+  "score": 7.8,
+  "verdict": "Still the better kitchen sink for mid-range PCs and for anyone who wants the deepest 1.20.1 mod ecosystem. Same ATM strengths and weaknesses; pick it over ATM10 if hardware or 1.20.1-only mods matter.",
+  "tags": [
+   "kitchen-sink",
+   "tech",
+   "magic",
+   "quests",
+   "atm-star",
+   "multiplayer"
+  ],
+  "ratings": {
+   "content": 10,
+   "polish": 8,
+   "progression": 6,
+   "performance": 6,
+   "beginner": 7,
+   "multiplayer": 9,
+   "longevity": 8
   },
   "quiz": {
    "vibes": [
@@ -1150,6 +1229,45 @@
    ],
    "structure": "guided",
    "solo_ok": false
+  }
+ },
+ {
+  "slug": "ftb-oceanblock-2",
+  "name": "FTB OceanBlock 2",
+  "category": "Skyblock & Questing",
+  "loader": "NeoForge",
+  "mc_version": "1.21.1",
+  "difficulty": "Easy",
+  "ram": "6 GB",
+  "playtime": "35–60 h",
+  "tier": "B",
+  "score": 6.4,
+  "verdict": "A pleasant, well-produced waterworld with custom dungeons and a unique vibe, undercut by weak gating and overpowered airdrops. Good for a relaxed month; not a challenge.",
+  "tags": [
+   "questing",
+   "water",
+   "tech",
+   "ftb",
+   "story",
+   "modern",
+   "light"
+  ],
+  "ratings": {
+   "content": 6,
+   "polish": 8,
+   "progression": 5,
+   "performance": 8,
+   "beginner": 8,
+   "multiplayer": 8,
+   "longevity": 4
+  },
+  "quiz": {
+   "vibes": [
+    "build",
+    "everything"
+   ],
+   "structure": "guided",
+   "solo_ok": true
   }
  },
  {
