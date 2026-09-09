@@ -435,6 +435,47 @@
   }
  },
  {
+  "slug": "deceasedcraft",
+  "name": "DeceasedCraft — Modern Zombie Apocalypse",
+  "category": "Survival Horror",
+  "loader": "Forge",
+  "mc_version": "1.20.1",
+  "difficulty": "Hard",
+  "ram": "5 GB min, 8 GB recommended (10 GB for the Distant Horizons edition)",
+  "playtime": "60–120 h (v5.5.5 complete)",
+  "tier": "A",
+  "score": 7.7,
+  "verdict": "The most complete zombie-survival pack: handcrafted districts, real progression, and hordes that scale with your playtime. Play the finished v5.5.5 unless you want to beta-test v6.0.",
+  "tags": [
+   "zombies",
+   "survival",
+   "horror",
+   "guns",
+   "city",
+   "create",
+   "quests",
+   "multiplayer",
+   "modern"
+  ],
+  "ratings": {
+   "content": 9,
+   "polish": 8,
+   "progression": 8,
+   "performance": 6,
+   "beginner": 5,
+   "multiplayer": 9,
+   "longevity": 7
+  },
+  "quiz": {
+   "vibes": [
+    "survive",
+    "explore"
+   ],
+   "structure": "guided",
+   "solo_ok": true
+  }
+ },
+ {
   "slug": "divine-journey-2",
   "name": "Divine Journey 2",
   "category": "Expert",
@@ -672,6 +713,45 @@
   }
  },
  {
+  "slug": "rebirth-of-the-night",
+  "name": "Rebirth of the Night",
+  "category": "Hardcore Survival",
+  "loader": "Forge",
+  "mc_version": "1.12.2",
+  "difficulty": "Brutal",
+  "ram": "6 GB",
+  "playtime": "100–200 h",
+  "tier": "A",
+  "score": 7.5,
+  "verdict": "The best-designed hardcore survival pack on 1.12.2: unified art, its own lore and progression, nights that genuinely menace. Harder to love at first than RLCraft, far more rewarding.",
+  "tags": [
+   "hardcore",
+   "survival",
+   "dark-fantasy",
+   "progression",
+   "classic-era",
+   "atmosphere",
+   "lore"
+  ],
+  "ratings": {
+   "content": 8,
+   "polish": 8,
+   "progression": 9,
+   "performance": 7,
+   "beginner": 2,
+   "multiplayer": 8,
+   "longevity": 7
+  },
+  "quiz": {
+   "vibes": [
+    "survive",
+    "explore"
+   ],
+   "structure": "loose",
+   "solo_ok": true
+  }
+ },
+ {
   "slug": "create-arcane-engineering",
   "name": "Create: Arcane Engineering",
   "category": "Tech",
@@ -868,6 +948,45 @@
     "cozy",
     "explore",
     "build"
+   ],
+   "structure": "loose",
+   "solo_ok": true
+  }
+ },
+ {
+  "slug": "cursed-walking",
+  "name": "The Cursed Walking — A Modern Zombie Apocalypse",
+  "category": "Survival Horror",
+  "loader": "Forge",
+  "mc_version": "1.20.1",
+  "difficulty": "Hard",
+  "ram": "4–6 GB (8 GB with shaders)",
+  "playtime": "40–100 h",
+  "tier": "A",
+  "score": 7.0,
+  "verdict": "2026's breakout survival-horror pack: faster, meaner and more open-ended than DeceasedCraft, with an endgame dimension and a roadmap still rolling. Rough edges remain.",
+  "tags": [
+   "zombies",
+   "survival",
+   "horror",
+   "guns",
+   "open-world",
+   "multiplayer",
+   "modern"
+  ],
+  "ratings": {
+   "content": 8,
+   "polish": 6,
+   "progression": 7,
+   "performance": 7,
+   "beginner": 4,
+   "multiplayer": 9,
+   "longevity": 7
+  },
+  "quiz": {
+   "vibes": [
+    "survive",
+    "explore"
    ],
    "structure": "loose",
    "solo_ok": true
