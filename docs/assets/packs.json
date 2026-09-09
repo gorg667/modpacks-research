@@ -283,6 +283,46 @@
   }
  },
  {
+  "slug": "rlcraft",
+  "name": "RLCraft",
+  "category": "Hardcore Survival",
+  "loader": "Forge",
+  "mc_version": "1.12.2",
+  "difficulty": "Brutal",
+  "ram": "4–6 GB",
+  "playtime": "Open-ended; 50–150 h to become powerful",
+  "tier": "A",
+  "score": 6.7,
+  "verdict": "Brutal, iconic, frozen on 1.12.2 and still unmatched at making Minecraft feel dangerous. Play it once for the stories; don't expect balance.",
+  "tags": [
+   "hardcore",
+   "survival",
+   "rpg",
+   "dragons",
+   "classic-era",
+   "difficulty",
+   "multiplayer",
+   "exploration"
+  ],
+  "ratings": {
+   "content": 8,
+   "polish": 6,
+   "progression": 6,
+   "performance": 7,
+   "beginner": 2,
+   "multiplayer": 8,
+   "longevity": 8
+  },
+  "quiz": {
+   "vibes": [
+    "survive",
+    "explore"
+   ],
+   "structure": "sandbox",
+   "solo_ok": true
+  }
+ },
+ {
   "slug": "prominence-2",
   "name": "Prominence II: Hasturian Era",
   "category": "RPG & Adventure",
