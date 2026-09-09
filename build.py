@@ -219,7 +219,7 @@ def main():
     keys = ["slug", "name", "category", "loader", "mc_version", "difficulty", "ram", "playtime", "tier", "score", "verdict", "tags", "ratings"]
     data = [{k: p[k] for k in keys} | {"quiz": p.get("quiz", {})} for p in packs]
     write(OUT / "assets" / "packs.json", json.dumps(data, indent=1, ensure_ascii=False))
-    write(OUT / "404.html", page("Not found", '<section class="section"><h1>404</h1><p>That page doesn\'t exist. <a href="/">Back to the guide</a>.</p></section>'))
+    write(OUT / "404.html", page("Not found", '<section class="section"><h1>404</h1><p>That page doesn\'t exist. <a href="index.html">Back to the guide</a>.</p></section>'))
     urls = ["index.html", "compare.html", "quiz.html", "packs/index.html"] + [f"packs/{p['slug']}.html" for p in packs] + [f"guides/{g['slug']}.html" for g in guides]
     if BASE:
         write(OUT / "sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
