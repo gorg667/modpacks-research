@@ -40,6 +40,46 @@
   }
  },
  {
+  "slug": "craft-to-exile-2",
+  "name": "Craft to Exile 2",
+  "category": "RPG & Adventure",
+  "loader": "Forge",
+  "mc_version": "1.20.1",
+  "difficulty": "Moderate",
+  "ram": "6 GB (with custom args)",
+  "playtime": "100–300 h (campaign + Atlas)",
+  "tier": "A",
+  "score": 8.4,
+  "verdict": "The most *systemically* complete RPG modpack — Mine and Slash's ARPG depth wrapped in a 250-quest campaign and a real endgame. Less pretty than Prominence, far more coherent.",
+  "tags": [
+   "rpg",
+   "arpg",
+   "loot",
+   "classes",
+   "maps",
+   "dungeons",
+   "quests",
+   "multiplayer",
+   "path-of-exile"
+  ],
+  "ratings": {
+   "content": 9,
+   "polish": 8,
+   "progression": 9,
+   "performance": 7,
+   "beginner": 6,
+   "multiplayer": 9,
+   "longevity": 9
+  },
+  "quiz": {
+   "vibes": [
+    "explore"
+   ],
+   "structure": "guided",
+   "solo_ok": true
+  }
+ },
+ {
   "slug": "create-astral",
   "name": "Create: Astral",
   "category": "Tech",
@@ -195,6 +235,45 @@
     "explore"
    ],
    "structure": "guided",
+   "solo_ok": true
+  }
+ },
+ {
+  "slug": "vault-hunters-3",
+  "name": "Vault Hunters 3rd Edition",
+  "category": "RPG & Adventure",
+  "loader": "Forge",
+  "mc_version": "1.18.2",
+  "difficulty": "Moderate",
+  "ram": "6–8 GB",
+  "playtime": "200–500 h (level 100 / 25 artifacts)",
+  "tier": "A",
+  "score": 8.1,
+  "verdict": "A brilliant action-RPG loop with unmatched multiplayer energy — and a grind that only pays off if you love the Vault itself. Wold's Vaults is the recommended community upgrade.",
+  "tags": [
+   "rpg",
+   "roguelike",
+   "dungeons",
+   "loot",
+   "multiplayer",
+   "talents",
+   "streamer",
+   "quests"
+  ],
+  "ratings": {
+   "content": 8,
+   "polish": 9,
+   "progression": 8,
+   "performance": 7,
+   "beginner": 6,
+   "multiplayer": 10,
+   "longevity": 8
+  },
+  "quiz": {
+   "vibes": [
+    "explore"
+   ],
+   "structure": "loose",
    "solo_ok": true
   }
  },
@@ -952,6 +1031,46 @@
    ],
    "structure": "guided",
    "solo_ok": false
+  }
+ },
+ {
+  "slug": "dawncraft",
+  "name": "DawnCraft — Echoes of Legends",
+  "category": "RPG & Adventure",
+  "loader": "Forge",
+  "mc_version": "1.18.2",
+  "difficulty": "Hard",
+  "ram": "8 GB (LITE version for weaker PCs)",
+  "playtime": "60–150 h",
+  "tier": "B",
+  "score": 6.0,
+  "verdict": "The most popular ‘action RPG’ pack by downloads, with genuinely thrilling boss fights and a memorable open world, held back by performance, bloat and obtuse gating.",
+  "tags": [
+   "rpg",
+   "souls-like",
+   "bosses",
+   "epic-fight",
+   "exploration",
+   "quests",
+   "reputation",
+   "multiplayer"
+  ],
+  "ratings": {
+   "content": 8,
+   "polish": 5,
+   "progression": 6,
+   "performance": 4,
+   "beginner": 4,
+   "multiplayer": 7,
+   "longevity": 6
+  },
+  "quiz": {
+   "vibes": [
+    "explore",
+    "survive"
+   ],
+   "structure": "loose",
+   "solo_ok": true
   }
  }
 ]
