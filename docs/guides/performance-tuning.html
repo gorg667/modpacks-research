@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Performance tuning for modpacks · Modpack Atlas</title>
+<meta name="description" content="RAM, JVM flags, the performance mods that actually matter, in-game settings, and how to diagnose lag — for clients and servers.">
+<meta property="og:title" content="Performance tuning for modpacks">
+<meta property="og:description" content="RAM, JVM flags, the performance mods that actually matter, in-game settings, and how to diagnose lag — for clients and servers.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0f1115">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/style.css">
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-cube">▣</span> Modpack Atlas</a>
+  <nav class="nav" aria-label="Main"><a href="../index.html" class="">Home</a><a href="../packs/index.html" class="">Reviews</a><a href="../compare.html" class="">Compare</a><a href="../quiz.html" class="">Quiz</a><a href="../guides/how-to-choose.html" class="active">Guides</a></nav>
+  <button class="nav-toggle" aria-label="Menu" onclick="document.body.classList.toggle('nav-open')">☰</button>
+</header>
+<main id="main">
+<div class="guide-layout">
+  <aside class="guide-toc"><h2>Guides</h2><a href="how-to-choose.html" class="">How to choose a modpack</a><a href="methodology.html" class="">Methodology: how we score and rank</a><a href="launchers-and-install.html" class="">Launchers, installing and updating modpacks</a><a href="performance-tuning.html" class="active">Performance tuning for modpacks</a><a href="faq.html" class="">faq</a><a href="glossary.html" class="">glossary</a><a href="history.html" class="">history</a></aside>
+  <article class="prose guide">
+    <p class="eyebrow">Guide · 9 min read · updated September 2026</p>
+    <h1>Performance tuning for modpacks</h1>
+    <p class="lead">RAM, JVM flags, the performance mods that actually matter, in-game settings, and how to diagnose lag — for clients and servers.</p>
+    <h2 id="the-8020-of-modded-performance">The 80/20 of modded performance</h2>
+<p>Four things account for most of the difference between a stuttering mess and a smooth pack:</p>
+<ol>
+<li><strong>Correct RAM allocation</strong> (not too little, not too much).</li>
+<li><strong>A modern renderer</strong> — Sodium/Embeddium instead of vanilla or OptiFine.</li>
+<li><strong>Reasonable render distance and simulation distance</strong> (12 and 8 are plenty in most packs).</li>
+<li><strong>Not running out of CPU</strong> — modded Minecraft is single-thread-bound; a fast core beats many cores.</li>
+</ol>
+<p>Everything else is a few percent.</p>
+<h2 id="ram">RAM</h2>
+<p>Allocate roughly what the pack review says; never more than half your physical RAM. Symptoms of <em>too little</em>: <code>OutOfMemory</code> crashes, world-load freezes, stutter on every chunk. Symptoms of <em>too much</em>: periodic multi-second freezes (huge garbage-collection pauses) and the OS swapping. A 16 GB machine should run 6–8 GB packs happily and 10 GB packs adequately with browsers closed. 32 GB removes the question.</p>
+<h2 id="java-and-jvm-flags">Java and JVM flags</h2>
+<ul>
+<li><strong>Java version follows Minecraft version</strong>: 8 for 1.12.2 (unless the pack ships Cleanroom/lwjgl3ify), 17 for 1.18–1.20.1, 21 for 1.21+. Newer Java within the allowed range is usually faster; GTNH's Java 17–21 path is dramatically better than Java 8.</li>
+<li><strong>G1GC defaults are fine</strong> on Java 17+. The classic "Aikar's flags" were tuned for servers on old Java; they still help servers and don't hurt clients. A commonly used client set for Java 17+:</li>
+</ul>
+<pre><code>-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1
+</code></pre>
+<ul>
+<li><strong>ZGC / Shenandoah</strong> (Java 17+) reduce pause length at the cost of throughput; worth trying on 32 GB machines with 12 GB heaps if you see GC stutter. <code>-XX:+UseZGC</code> (Java 21: <code>-XX:+UseZGC -XX:+ZGenerational</code>).</li>
+<li><strong>Pack-specified flags win.</strong> MeatballCraft, Craft to Exile 2 and GTNH publish flags for their memory-cleaner / performance setups — use those.</li>
+</ul>
+<h2 id="performance-mods-that-matter">Performance mods that matter</h2>
+<p>Most 2024+ packs bundle these. If yours doesn't, they're client-safe additions:</p>
+<table>
+<thead>
+<tr>
+<th>Purpose</th>
+<th>Fabric</th>
+<th>Forge / NeoForge</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Renderer (biggest single win)</td>
+<td>Sodium</td>
+<td>Embeddium (1.20.1) / Sodium (NeoForge 1.21) — <em>not</em> OptiFine</td>
+</tr>
+<tr>
+<td>Shaders</td>
+<td>Iris</td>
+<td>Oculus (1.20.1) / Iris NeoForge</td>
+</tr>
+<tr>
+<td>Game logic</td>
+<td>Lithium</td>
+<td>Canary / (Lithium NeoForge)</td>
+</tr>
+<tr>
+<td>Memory</td>
+<td>FerriteCore</td>
+<td>FerriteCore</td>
+</tr>
+<tr>
+<td>Startup &amp; misc</td>
+<td>ModernFix, ImmediatelyFast</td>
+<td>ModernFix, ImmediatelyFast</td>
+</tr>
+<tr>
+<td>Entities</td>
+<td>Entity Culling</td>
+<td>Entity Culling</td>
+</tr>
+<tr>
+<td>Chunk gen (servers)</td>
+<td>C2ME (Fabric), Chunky for pregen</td>
+<td>Chunky for pregen</td>
+</tr>
+<tr>
+<td>Item lag</td>
+<td>Clumps (XP), FastFurnace</td>
+<td>Clumps, FastWorkbench, FastFurnace</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Do not install OptiFine</strong> into a modern modpack. It conflicts with almost everything and is slower than Sodium/Embeddium. Fabulously Optimized exists precisely to replace it.</p>
+<h2 id="in-game-settings">In-game settings</h2>
+<ul>
+<li><strong>Render distance 10–12</strong>, simulation distance 6–8. Big modded worlds punish 16+.</li>
+<li><strong>Entity distance 100%</strong> or lower in mob-heavy packs.</li>
+<li><strong>Turn off</strong> Alex's Caves cave biomes, Distant Horizons, or dense worldgen features if chunk generation stutters on older CPUs.</li>
+<li><strong>Shaders:</strong> Complementary Reimagined / Unbound "Low" or "Medium" presets are the community standard; Potato/MakeUp UltraFast for weak GPUs. Shaders cost 30–60% of FPS.</li>
+<li><strong>JEI/EMI search lag</strong> in 500-mod packs is normal on first open; subsequent searches are cached.</li>
+</ul>
+<h2 id="diagnosing-lag">Diagnosing lag</h2>
+<ul>
+<li><strong>Low FPS, smooth ticks</strong> → GPU/renderer: lower render distance, shaders, entity distance.</li>
+<li><strong>Stutter every few seconds</strong> → garbage collection: fix RAM (up or down), try ZGC.</li>
+<li><strong>Stutter when moving into new areas</strong> → chunk generation (CPU): lower render distance, pregenerate (Chunky), disable heavy worldgen.</li>
+<li><strong>Everything slow, TPS below 20 (F3 or /forge tps)</strong> → server-side lag: too many machines/entities/chunk loaders. Spark (<code>/spark profiler</code>) shows the culprit; it's bundled in many packs.</li>
+<li><strong>Crafting-table or inventory lag</strong> → recipe/compat mods (Prominence II's known issue with Mowzie's × Cataclysm compat) or Polymorph scanning; check the pack's Discord.</li>
+</ul>
+<h2 id="servers">Servers</h2>
+<ul>
+<li><strong>RAM:</strong> roughly the client figure plus 2 GB; ATM10 12–16 GB for 4–8 players; StoneBlock 4 / most 200-mod packs 8 GB; Nomifactory 2–4 GB.</li>
+<li><strong>Pregenerate</strong> 2,000–3,000 blocks radius with Chunky before players join.</li>
+<li><strong>Aikar's flags</strong> are still the standard server JVM set for Java 17+.</li>
+<li><strong>Chunk loaders</strong> are the #1 TPS killer; limit them per player.</li>
+<li><strong>enable-command-block=true</strong> is required by several packs (StoneBlock 4, DeceasedCraft) for custom structures to function.</li>
+<li>Big Create contraptions and long train networks are the Create-pack load; big AE2/Refined Storage networks and mob farms are the kitchen-sink load; ore-processing multiblocks are the GregTech load. Design bases with this in mind.</li>
+</ul>
+  </article>
+</div>
+
+</main>
+<footer class="footer">
+  <div><strong>Modpack Atlas</strong> — an independent, unaffiliated guide. Not endorsed by Mojang, Microsoft, CurseForge, Modrinth or any modpack team. Minecraft is a trademark of Mojang AB. Facts current as of <strong>September 2026</strong>; modpacks update constantly — always check the official pages linked in each review.</div>
+  <div class="footer-links"><a href="../guides/methodology.html">Methodology</a> · <a href="../guides/glossary.html">Glossary</a> · <a href="../guides/faq.html">FAQ</a> · <a href="https://github.com/gorg667/modpacks-research" target="_blank" rel="noopener">Source on GitHub</a></div>
+  <div class="muted">© 2026. Text licensed CC BY 4.0 — reuse with attribution.</div>
+</footer>
+<script src="../assets/app.js" defer></script>
+</body>
+</html>
