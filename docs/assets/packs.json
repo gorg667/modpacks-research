@@ -555,6 +555,46 @@
   }
  },
  {
+  "slug": "sunlit-valley",
+  "name": "Society: Sunlit Valley",
+  "category": "Cozy & Vanilla+",
+  "loader": "Forge",
+  "mc_version": "1.20.1",
+  "difficulty": "Easy",
+  "ram": "6 GB",
+  "playtime": "60–150 h",
+  "tier": "A",
+  "score": 7.7,
+  "verdict": "The best farming-sim pack: a real Stardew loop with commerce-driven progression and relaxing automation. Cozier than Homestead in mechanics, less pretty in presentation.",
+  "tags": [
+   "cozy",
+   "farming",
+   "stardew",
+   "seasons",
+   "economy",
+   "automation",
+   "multiplayer",
+   "create"
+  ],
+  "ratings": {
+   "content": 8,
+   "polish": 8,
+   "progression": 7,
+   "performance": 7,
+   "beginner": 9,
+   "multiplayer": 9,
+   "longevity": 7
+  },
+  "quiz": {
+   "vibes": [
+    "cozy",
+    "build"
+   ],
+   "structure": "guided",
+   "solo_ok": true
+  }
+ },
+ {
   "slug": "divine-journey-2",
   "name": "Divine Journey 2",
   "category": "Expert",
@@ -667,6 +707,44 @@
    "vibes": [
     "build",
     "everything"
+   ],
+   "structure": "guided",
+   "solo_ok": true
+  }
+ },
+ {
+  "slug": "statech-industry",
+  "name": "StaTech Industry",
+  "category": "Tech",
+  "loader": "Fabric",
+  "mc_version": "1.20.1 (StaTech 2 on 1.21)",
+  "difficulty": "Moderate",
+  "ram": "5–6 GB",
+  "playtime": "100–200 h",
+  "tier": "A",
+  "score": 7.6,
+  "verdict": "The gentlest on-ramp to factory packs — polished, light, Fabric, and quest-guided. Easier than every GregTech pack; the right first step before Nomifactory.",
+  "tags": [
+   "tech",
+   "factory",
+   "modern-industrialization",
+   "quests",
+   "fabric",
+   "automation",
+   "light"
+  ],
+  "ratings": {
+   "content": 7,
+   "polish": 9,
+   "progression": 8,
+   "performance": 9,
+   "beginner": 6,
+   "multiplayer": 8,
+   "longevity": 6
+  },
+  "quiz": {
+   "vibes": [
+    "build"
    ],
    "structure": "guided",
    "solo_ok": true
@@ -866,6 +944,46 @@
     "build"
    ],
    "structure": "guided",
+   "solo_ok": true
+  }
+ },
+ {
+  "slug": "integrated-mc",
+  "name": "Integrated MC",
+  "category": "RPG & Adventure",
+  "loader": "Forge",
+  "mc_version": "1.20.1",
+  "difficulty": "Moderate",
+  "ram": "6–8 GB",
+  "playtime": "60–150 h",
+  "tier": "A",
+  "score": 7.4,
+  "verdict": "The cohesion pack: the answer to every ‘Prominence is a mess’ thread. Spectacular Integrated Dungeons and Structures, sensible recipes, a real sense of one world. Less campaign, more craft.",
+  "tags": [
+   "adventure",
+   "dungeons",
+   "structures",
+   "exploration",
+   "integration",
+   "quests",
+   "create",
+   "multiplayer"
+  ],
+  "ratings": {
+   "content": 8,
+   "polish": 9,
+   "progression": 6,
+   "performance": 7,
+   "beginner": 7,
+   "multiplayer": 8,
+   "longevity": 7
+  },
+  "quiz": {
+   "vibes": [
+    "explore",
+    "build"
+   ],
+   "structure": "loose",
    "solo_ok": true
   }
  },
