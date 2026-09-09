@@ -1,0 +1,42 @@
+[
+ {
+  "slug": "all-the-mods-10",
+  "name": "All the Mods 10",
+  "category": "Kitchen Sink",
+  "loader": "NeoForge",
+  "mc_version": "1.21.1",
+  "difficulty": "Easy",
+  "ram": "10–12 GB",
+  "playtime": "150–400 h (ATM Star)",
+  "tier": "S",
+  "score": 7.8,
+  "verdict": "The most complete kitchen-sink pack ever assembled and the safest pick for mixed groups; just don't expect it to challenge you.",
+  "tags": [
+   "kitchen-sink",
+   "tech",
+   "magic",
+   "quests",
+   "multiplayer",
+   "atm-star",
+   "modern"
+  ],
+  "ratings": {
+   "content": 10,
+   "polish": 8,
+   "progression": 6,
+   "performance": 5,
+   "beginner": 7,
+   "multiplayer": 9,
+   "longevity": 9
+  },
+  "quiz": {
+   "vibes": [
+    "build",
+    "explore",
+    "everything"
+   ],
+   "structure": "loose",
+   "solo_ok": true
+  }
+ }
+]
