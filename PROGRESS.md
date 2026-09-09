@@ -58,3 +58,9 @@ Kitchen-sink/tech: All the Mods 9 / ATM9: To the Sky / ATM10, FTB Skies, FTB Sto
 ✓ Batch B complete (24 packs total)
 ✓ Batch C complete — 41 reviews total. Reviews phase DONE.
 - Step 6 (reviews) DONE: 41 packs. Next: Step 7 guides (how-to-choose, methodology, glossary, faq, history + launchers-install, performance-tuning, servers). Then polish: fix duplicate title on index ("Modpack Atlas · Modpack Atlas"), README, verify links.
+
+## STATUS 2026-09-09 (late): SITE COMPLETE v1
+- 41 reviews, 7 guides, index (quick picks, tier list, filter grid), compare table, quiz, 404, sitemap, README. All built to docs/ and pushed.
+- Verified: zero JS console errors on index/pack/quiz; 0 broken internal links; quiz persona tests return sensible top picks.
+- Remaining optional polish ideas (not required): hero images per pack (would need image_search w/ CC filter), OG image, more packs (E6E, FTB Skies, Decursio, Rustic Waters II, Cobblemon Star Academy, Cisco's), per-pack "sources" footnote lists from research/*.md, dark/light toggle.
+- GH Pages: user must enable Settings → Pages → main:/docs (cannot be done via git). Site URL: https://gorg667.github.io/modpacks-research/
