@@ -318,6 +318,45 @@
   }
  },
  {
+  "slug": "divine-journey-2",
+  "name": "Divine Journey 2",
+  "category": "Expert",
+  "loader": "Forge",
+  "mc_version": "1.12.2",
+  "difficulty": "Expert",
+  "ram": "6–8 GB",
+  "playtime": "400–600 h (540 h reported for 100%)",
+  "tier": "A",
+  "score": 7.6,
+  "verdict": "The hardest non-GregTech expert pack: 25 chapters, 500+ hours, magic and tech woven into one immense automation web. Polished, complete, and unforgiving.",
+  "tags": [
+   "expert",
+   "magic",
+   "tech",
+   "quests",
+   "chapters",
+   "classic-era",
+   "long-term",
+   "automation"
+  ],
+  "ratings": {
+   "content": 9,
+   "polish": 9,
+   "progression": 8,
+   "performance": 7,
+   "beginner": 1,
+   "multiplayer": 8,
+   "longevity": 7
+  },
+  "quiz": {
+   "vibes": [
+    "build"
+   ],
+   "structure": "guided",
+   "solo_ok": true
+  }
+ },
+ {
   "slug": "monifactory",
   "name": "Monifactory",
   "category": "Expert",
@@ -351,6 +390,46 @@
   "quiz": {
    "vibes": [
     "build"
+   ],
+   "structure": "guided",
+   "solo_ok": true
+  }
+ },
+ {
+  "slug": "project-ozone-3",
+  "name": "Project Ozone 3: A New Way Forward",
+  "category": "Skyblock & Questing",
+  "loader": "Forge",
+  "mc_version": "1.12.2",
+  "difficulty": "Moderate (Normal) / Expert (Kappa) / Brutal (Mythic)",
+  "ram": "6–8 GB",
+  "playtime": "80 h (Normal) – 600+ h (Kappa/Mythic)",
+  "tier": "A",
+  "score": 7.6,
+  "verdict": "The most flexible expert pack ever made: one install, three games. Normal is a fine sink; Kappa and Mythic are legendary grinds for people who want to automate the impossible.",
+  "tags": [
+   "skyblock",
+   "expert",
+   "kitchen-sink",
+   "quests",
+   "pack-modes",
+   "classic-era",
+   "automation",
+   "avaritia"
+  ],
+  "ratings": {
+   "content": 9,
+   "polish": 7,
+   "progression": 8,
+   "performance": 6,
+   "beginner": 4,
+   "multiplayer": 8,
+   "longevity": 9
+  },
+  "quiz": {
+   "vibes": [
+    "build",
+    "everything"
    ],
    "structure": "guided",
    "solo_ok": true
@@ -429,6 +508,46 @@
   },
   "quiz": {
    "vibes": [
+    "build"
+   ],
+   "structure": "guided",
+   "solo_ok": true
+  }
+ },
+ {
+  "slug": "sevtech-ages",
+  "name": "SevTech: Ages",
+  "category": "Expert",
+  "loader": "Forge",
+  "mc_version": "1.12.2",
+  "difficulty": "Hard",
+  "ram": "6–8 GB",
+  "playtime": "150–300 h",
+  "tier": "A",
+  "score": 7.4,
+  "verdict": "The most influential progression pack ever made — a genuine journey through human technology with brilliant staging, undone slightly by a grindy final Age. Still essential.",
+  "tags": [
+   "progression",
+   "ages",
+   "tech",
+   "magic",
+   "quests",
+   "classic-era",
+   "story",
+   "exploration"
+  ],
+  "ratings": {
+   "content": 9,
+   "polish": 8,
+   "progression": 9,
+   "performance": 5,
+   "beginner": 3,
+   "multiplayer": 8,
+   "longevity": 6
+  },
+  "quiz": {
+   "vibes": [
+    "explore",
     "build"
    ],
    "structure": "guided",
