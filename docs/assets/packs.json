@@ -119,6 +119,47 @@
   }
  },
  {
+  "slug": "meatballcraft",
+  "name": "MeatballCraft: Dimensional Ascension",
+  "category": "Expert",
+  "loader": "Forge (Cleanroom loader; Java 21/22 supported)",
+  "mc_version": "1.12.2",
+  "difficulty": "Expert",
+  "ram": "10–12 GB (custom JVM args required)",
+  "playtime": "500 h (record) – 1,000–2,000 h typical for finishers",
+  "tier": "S",
+  "score": 8.1,
+  "verdict": "A staggering, still-growing 1.12.2 tech-RPG expert pack with more custom content than anything outside GTNH; less grindy than Greg, more exploration, 1,000+ hours for finishers.",
+  "tags": [
+   "expert",
+   "tech",
+   "rpg",
+   "magic",
+   "custom-content",
+   "dimensions",
+   "classic-era",
+   "quests",
+   "long-term"
+  ],
+  "ratings": {
+   "content": 10,
+   "polish": 8,
+   "progression": 9,
+   "performance": 5,
+   "beginner": 2,
+   "multiplayer": 8,
+   "longevity": 10
+  },
+  "quiz": {
+   "vibes": [
+    "build",
+    "explore"
+   ],
+   "structure": "guided",
+   "solo_ok": true
+  }
+ },
+ {
   "slug": "all-the-mods-10",
   "name": "All the Mods 10",
   "category": "Kitchen Sink",
