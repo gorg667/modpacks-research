@@ -1,0 +1,31 @@
+title: "Modpack Atlas"
+tagline: "The most in-depth, research-backed guide to the best Minecraft modpacks — reviews, tier list, comparison table and a quiz to find your perfect pack."
+updated: "September 2026"
+base_url: "https://gorg667.github.io/modpacks-research"
+nav:
+  - {id: home, label: Home, href: "index.html"}
+  - {id: packs, label: Reviews, href: "packs/index.html"}
+  - {id: compare, label: Compare, href: "compare.html"}
+  - {id: quiz, label: Quiz, href: "quiz.html"}
+  - {id: guides, label: Guides, href: "guides/how-to-choose.html"}
+quick_picks:
+  - {slug: all-the-mods-10, label: "Best overall / kitchen sink", why: "500 mods, a real endgame, runs on modern 1.21 — the safe default for groups."}
+  - {slug: better-minecraft-bmc4, label: "Best first modpack", why: "Vanilla+ that still feels like Minecraft. 4–6 GB RAM."}
+  - {slug: gregtech-new-horizons, label: "Best expert / hardest", why: "2,000+ hours. Ten years of development. Nothing else comes close."}
+  - {slug: ftb-stoneblock-4, label: "Best questing / progression pack of 2026", why: "World Engine, handcrafted Vaults, Unearthers — FTB's best in years."}
+  - {slug: create-astral, label: "Best way to learn Create", why: "A textbook-quality quest book that takes you from sawmill to the Moon."}
+  - {slug: prominence-2, label: "Best RPG (with caveats)", why: "Gorgeous, story-driven, huge 4.0 update — read the cons first."}
+  - {slug: homestead, label: "Best cozy pack", why: "Cottagecore farming with bundled shaders and a gentle quest book."}
+  - {slug: cobbleverse, label: "Best Pokémon pack", why: "All 1,025 Pokémon, gyms and regions. Cobblemon done as a full RPG."}
+  - {slug: rlcraft, label: "Best hardcore survival", why: "29 M downloads and still the rite of passage. You will die. A lot."}
+  - {slug: fabulously-optimized, label: "Best for potato PCs", why: "Not a content pack — the fastest way to run vanilla-feeling Minecraft."}
+intro_md: |
+  ## Why this guide exists
+
+  Most "best modpacks" lists are written by server hosts to sell RAM, recycle the same ten CurseForge thumbnails, and never tell you *why* a pack is good or — more importantly — who it is **not** for. This site is the opposite. Every review here is long-form, cites the community threads and official pages it draws from, lists concrete criticisms, and is scored against the same seven-metric rubric so the numbers actually mean something across categories.
+
+  **What "best" means here.** A modpack is a designed experience, not a mod count. We reward coherent vision, progression that teaches rather than stalls, stability, respect for your time, and — crucially — whether the pack delivers on the promise it makes to its own audience. A 40-hour cozy pack and a 2,000-hour engineering marathon can both be S-tier.
+
+  **How to use this site.** If you know roughly what you want, jump to the [browser](#browse) and filter by category, loader or difficulty. If you don't, take the [quiz](quiz.html). If you want to understand the landscape first — loaders, versions, launchers, RAM — start with [How to choose a modpack](guides/how-to-choose.html). Every review ends with "play this if / skip it if" so you can decide in ten seconds.
+
+  **Coverage.** The reviewed set spans kitchen-sink, expert/GregTech, Create-centric tech, skyblock and questing, RPG/adventure, hardcore survival and horror, cozy Vanilla+, Pokémon, and performance packs, across Minecraft 1.7.10 through 1.21.x on Forge, NeoForge and Fabric. Legendary retired packs get shorter "hall of fame" write-ups in the [history guide](guides/history.html).
