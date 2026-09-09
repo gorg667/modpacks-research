@@ -436,6 +436,47 @@
   }
  },
  {
+  "slug": "terrafirmagreg",
+  "name": "TerraFirmaGreg-Modern",
+  "category": "Expert",
+  "loader": "Forge",
+  "mc_version": "1.20.1",
+  "difficulty": "Brutal",
+  "ram": "8 GB",
+  "playtime": "300–800 h+ (no defined end yet)",
+  "tier": "A",
+  "score": 7.4,
+  "verdict": "The most immersive survival-to-industry arc in Minecraft, and the hardest early game of any modern pack. Be warned: it is TerraFirmaCraft+ for a very long time before it is GregTech.",
+  "tags": [
+   "expert",
+   "gregtech",
+   "survival",
+   "realism",
+   "terrafirmacraft",
+   "tech",
+   "hardcore",
+   "modern",
+   "seasons"
+  ],
+  "ratings": {
+   "content": 9,
+   "polish": 7,
+   "progression": 8,
+   "performance": 6,
+   "beginner": 1,
+   "multiplayer": 8,
+   "longevity": 9
+  },
+  "quiz": {
+   "vibes": [
+    "survive",
+    "build"
+   ],
+   "structure": "loose",
+   "solo_ok": true
+  }
+ },
+ {
   "slug": "all-of-create",
   "name": "All of Create",
   "category": "Tech",
