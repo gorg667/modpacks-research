@@ -119,5 +119,46 @@
    "structure": "guided",
    "solo_ok": true
   }
+ },
+ {
+  "slug": "better-minecraft-bmc4",
+  "name": "Better MC [FORGE] BMC4",
+  "category": "Cozy & Vanilla+",
+  "loader": "Forge",
+  "mc_version": "1.20.1",
+  "difficulty": "Beginner",
+  "ram": "4–6 GB",
+  "playtime": "40–150 h (open-ended)",
+  "tier": "A",
+  "score": 6.8,
+  "verdict": "The definitive Vanilla+ gateway: 300+ mods that make the base game bigger without making it a different game. Not deep, not meant to be.",
+  "tags": [
+   "vanilla-plus",
+   "exploration",
+   "beginner",
+   "structures",
+   "quests",
+   "shaders",
+   "multiplayer",
+   "aether"
+  ],
+  "ratings": {
+   "content": 7,
+   "polish": 7,
+   "progression": 4,
+   "performance": 8,
+   "beginner": 10,
+   "multiplayer": 9,
+   "longevity": 6
+  },
+  "quiz": {
+   "vibes": [
+    "explore",
+    "cozy",
+    "everything"
+   ],
+   "structure": "sandbox",
+   "solo_ok": true
+  }
  }
 ]
