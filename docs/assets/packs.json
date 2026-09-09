@@ -161,6 +161,48 @@
   }
  },
  {
+  "slug": "homestead",
+  "name": "Homestead",
+  "category": "Cozy & Vanilla+",
+  "loader": "Fabric",
+  "mc_version": "1.20.1 / 1.21.1",
+  "difficulty": "Easy",
+  "ram": "4–6 GB (6–8 GB with high shader presets)",
+  "playtime": "Open-ended; ~40–60 h of quests",
+  "tier": "A",
+  "score": 7.2,
+  "verdict": "2026's breakout cozy pack. A hand-tuned Fabric Vanilla+ experience with a real quest book, custom creatures and bundled shaders; the best relaxed pack for mixed-skill groups.",
+  "tags": [
+   "cozy",
+   "vanilla-plus",
+   "farming",
+   "quests",
+   "shaders",
+   "fabric",
+   "beginner",
+   "building",
+   "multiplayer"
+  ],
+  "ratings": {
+   "content": 7,
+   "polish": 8,
+   "progression": 5,
+   "performance": 8,
+   "beginner": 10,
+   "multiplayer": 9,
+   "longevity": 6
+  },
+  "quiz": {
+   "vibes": [
+    "cozy",
+    "explore",
+    "build"
+   ],
+   "structure": "loose",
+   "solo_ok": true
+  }
+ },
+ {
   "slug": "better-minecraft-bmc4",
   "name": "Better MC [FORGE] BMC4",
   "category": "Cozy & Vanilla+",
