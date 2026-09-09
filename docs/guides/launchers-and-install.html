@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Launchers, installing and updating modpacks · Modpack Atlas</title>
+<meta name="description" content="Which launcher to use (and which to avoid for which packs), how to install from CurseForge, Modrinth and FTB, how to allocate RAM, and how not to lose your world when updating.">
+<meta property="og:title" content="Launchers, installing and updating modpacks">
+<meta property="og:description" content="Which launcher to use (and which to avoid for which packs), how to install from CurseForge, Modrinth and FTB, how to allocate RAM, and how not to lose your world when updating.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0f1115">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/style.css">
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-cube">▣</span> Modpack Atlas</a>
+  <nav class="nav" aria-label="Main"><a href="../index.html" class="">Home</a><a href="../packs/index.html" class="">Reviews</a><a href="../compare.html" class="">Compare</a><a href="../quiz.html" class="">Quiz</a><a href="../guides/how-to-choose.html" class="active">Guides</a></nav>
+  <button class="nav-toggle" aria-label="Menu" onclick="document.body.classList.toggle('nav-open')">☰</button>
+</header>
+<main id="main">
+<div class="guide-layout">
+  <aside class="guide-toc"><h2>Guides</h2><a href="how-to-choose.html" class="">How to choose a modpack</a><a href="methodology.html" class="">Methodology: how we score and rank</a><a href="launchers-and-install.html" class="active">Launchers, installing and updating modpacks</a><a href="faq.html" class="">faq</a><a href="glossary.html" class="">glossary</a><a href="history.html" class="">history</a></aside>
+  <article class="prose guide">
+    <p class="eyebrow">Guide · 10 min read · updated September 2026</p>
+    <h1>Launchers, installing and updating modpacks</h1>
+    <p class="lead">Which launcher to use (and which to avoid for which packs), how to install from CurseForge, Modrinth and FTB, how to allocate RAM, and how not to lose your world when updating.</p>
+    <h2 id="the-launchers">The launchers</h2>
+<p>Modpacks are installed and run through a <em>launcher</em> that downloads the mods, sets up the right Minecraft version and mod loader, and manages Java. You have five real options:</p>
+<table>
+<thead>
+<tr>
+<th>Launcher</th>
+<th>Best for</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Prism Launcher</strong></td>
+<td>Everyone who wants control</td>
+<td>Free, open source, fast. Installs packs from CurseForge, Modrinth, FTB (legacy), ATLauncher and Technic. Per-instance Java and RAM. The community default for GTNH, MeatballCraft and anything with special Java needs.</td>
+</tr>
+<tr>
+<td><strong>CurseForge App</strong></td>
+<td>Beginners on CurseForge-first packs</td>
+<td>The official Overwolf-based app. One-click for ATM, Prominence, RLCraft, etc. Heavier, ads in the free tier. <strong>Do not use for GTNH</strong> (broken, outdated listing) or for packs that need custom Java.</td>
+</tr>
+<tr>
+<td><strong>Modrinth App</strong></td>
+<td>Modrinth-first packs (Homestead, COBBLEVERSE, FO)</td>
+<td>Clean, fast, open source. Growing catalogue; many big packs are dual-listed.</td>
+</tr>
+<tr>
+<td><strong>FTB App</strong></td>
+<td>FTB packs (StoneBlock 4, OceanBlock 2, Direwolf20)</td>
+<td>Required for in-app FTB server hosting; also installs CurseForge packs.</td>
+</tr>
+<tr>
+<td><strong>ATLauncher / Technic</strong></td>
+<td>Legacy packs and a few holdouts</td>
+<td>ATLauncher hosts GTNH and older packs; Technic is mostly historical.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Recommendation:</strong> Prism Launcher for anyone comfortable clicking "add instance"; the CurseForge or Modrinth app if you want the simplest path and your pack is there.</p>
+<h2 id="installing">Installing</h2>
+<ol>
+<li>Install the launcher and <strong>sign in with your Microsoft account</strong> (you need Java Edition).</li>
+<li>Search the pack by name. Install the <em>official</em> listing — copycats and "Plus" forks are common; the official page is linked from every review here.</li>
+<li>Pick the <strong>latest stable</strong> version unless a review says otherwise (DeceasedCraft's v6 beta can't be finished; GTNH betas are for testing).</li>
+<li>Let it download (1–3 GB for big packs).</li>
+<li><strong>Set RAM</strong> (below) before first launch.</li>
+<li>First launch of a big pack takes 1–5 minutes. Don't force-quit a blank window.</li>
+</ol>
+<p><strong>Java.</strong> Launchers auto-select Java for the Minecraft version. If you get "Java version mismatch" or an instant crash: 1.12.2 → Java 8; 1.18–1.20.1 → Java 17; 1.21 → Java 21. GTNH's official download uses Java 17–21 via lwjgl3ify; MeatballCraft supports Java 21/22 via Cleanroom — follow <em>their</em> instructions.</p>
+<h2 id="allocating-ram">Allocating RAM</h2>
+<p>The single most impactful setting. In the launcher's Java/instance settings, set <strong>maximum memory</strong>:</p>
+<ul>
+<li>Target the review's RAM figure (StoneBlock 4: 6–8 GB; ATM10: 10–12 GB).</li>
+<li><strong>Never exceed half your physical RAM.</strong> 16 GB system → 8 GB is safe, 10 borderline, 12 will make the game <em>slower</em>.</li>
+<li>More is not better past the target — bigger heaps mean longer garbage-collection pauses.</li>
+</ul>
+<p><strong>JVM flags.</strong> Java 17+ with default G1 is fine for most packs. Packs that specify flags (MeatballCraft, Craft to Exile 2, GTNH) do so for a reason — paste theirs in. Otherwise see the <a href="performance-tuning.html">performance guide</a>.</p>
+<h2 id="updating-without-losing-your-world">Updating without losing your world</h2>
+<ol>
+<li><strong>Back up first.</strong> Copy <code>saves/&lt;world&gt;</code> somewhere else. Every time.</li>
+<li><strong>Read the changelog</strong> for "removed mod", "world reset recommended", "config changes".</li>
+<li><strong>Update through the launcher</strong>, not by dragging files.</li>
+<li>If it goes badly, reinstall the previous version and restore the backup.</li>
+<li><strong>Servers:</strong> client and server must be on the <em>same</em> pack version — mismatches are the #1 "can't connect" cause.</li>
+</ol>
+<p>Rule of thumb: <em>if it ain't broke, don't update mid-playthrough</em> unless the changelog fixes something you've hit.</p>
+<h2 id="adding-or-removing-mods">Adding or removing mods</h2>
+<p>Most packs tolerate <strong>client-side additions</strong> (minimaps, Jade, shader loaders). Adding content mods to a designed pack (StoneBlock 4, expert packs) breaks the design; removing mods often breaks recipes. Back up before experimenting.</p>
+<p><strong>Shaders:</strong> Forge/NeoForge packs use Oculus/Iris + Embeddium/Rubidium (usually bundled); Fabric packs use Iris + Sodium (usually bundled). Never add OptiFine to a modern pack.</p>
+<h2 id="common-launch-problems">Common launch problems</h2>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Likely cause</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Crash before the Mojang logo</td>
+<td>Wrong Java version</td>
+</tr>
+<tr>
+<td><code>OutOfMemory</code> / exit code 1</td>
+<td>Too little RAM allocated</td>
+</tr>
+<tr>
+<td>Freezes every few minutes</td>
+<td>Too <em>much</em> RAM, or a memory-hungry pack (MeatballCraft) under-allocated</td>
+</tr>
+<tr>
+<td>Pink/missing textures</td>
+<td>Resource pack or shader incompatibility</td>
+</tr>
+<tr>
+<td>"Mod X requires Y"</td>
+<td>Partial download — reinstall</td>
+</tr>
+<tr>
+<td>Server: "Incompatible mods"</td>
+<td>Client/server version mismatch</td>
+</tr>
+</tbody>
+</table>
+  </article>
+</div>
+
+</main>
+<footer class="footer">
+  <div><strong>Modpack Atlas</strong> — an independent, unaffiliated guide. Not endorsed by Mojang, Microsoft, CurseForge, Modrinth or any modpack team. Minecraft is a trademark of Mojang AB. Facts current as of <strong>September 2026</strong>; modpacks update constantly — always check the official pages linked in each review.</div>
+  <div class="footer-links"><a href="../guides/methodology.html">Methodology</a> · <a href="../guides/glossary.html">Glossary</a> · <a href="../guides/faq.html">FAQ</a> · <a href="https://github.com/gorg667/modpacks-research" target="_blank" rel="noopener">Source on GitHub</a></div>
+  <div class="muted">© 2026. Text licensed CC BY 4.0 — reuse with attribution.</div>
+</footer>
+<script src="../assets/app.js" defer></script>
+</body>
+</html>
