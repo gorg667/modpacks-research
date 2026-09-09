@@ -174,7 +174,7 @@ def build_index(packs, guides):
                 loader_opts=opts(loaders), diff_opts=opts(diffs), count=len(packs), tier_rows=tier_rows,
                 picks=picks, guides=guide_links, intro_html=render_md(SITE.get("intro_md", "")),
                 updated=esc(SITE.get("updated", "")))
-    return page(SITE["title"], body, rel="", description=SITE["tagline"], active="home")
+    return page("Best Minecraft Modpacks — reviews, tier list & quiz", body, rel="", description=SITE["tagline"], active="home")
 
 def build_packs_index(packs):
     cards = "".join(pack_card(p, prefix="") for p in packs)
