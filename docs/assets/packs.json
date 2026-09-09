@@ -200,5 +200,45 @@
    "structure": "sandbox",
    "solo_ok": true
   }
+ },
+ {
+  "slug": "prominence-2",
+  "name": "Prominence II: Hasturian Era",
+  "category": "RPG & Adventure",
+  "loader": "Fabric",
+  "mc_version": "1.20.1",
+  "difficulty": "Hard",
+  "ram": "6–8 GB",
+  "playtime": "60–150 h (two storylines + Mythic endgame)",
+  "tier": "B",
+  "score": 6.5,
+  "verdict": "A gorgeous, story-driven Fabric RPG with real classes, talent trees and voiced NPCs — undermined by mismatched tech mods, uneven bosses and configuration debt. Great with friends; read the cons first.",
+  "tags": [
+   "rpg",
+   "story",
+   "classes",
+   "bosses",
+   "fabric",
+   "multiplayer",
+   "magic",
+   "exploration",
+   "modern"
+  ],
+  "ratings": {
+   "content": 8,
+   "polish": 5,
+   "progression": 6,
+   "performance": 6,
+   "beginner": 5,
+   "multiplayer": 8,
+   "longevity": 7
+  },
+  "quiz": {
+   "vibes": [
+    "explore"
+   ],
+   "structure": "guided",
+   "solo_ok": false
+  }
  }
 ]
